@@ -100,22 +100,22 @@ Two Arduino Uno R3 nodes communicate over a twisted-pair CAN bus through MCP2515
 
 <p align="center">
   <img src="images/transmit_side.jpg" alt="Transmit side with IR sensor and Arduino TX + MCP2515" width="80%" /><br/>
-  <em>Transmit side: IR distance sensor, Arduino Uno TX, MCP2515 CAN module, and breadboard.</em>
+  <em>Transmit side: IR distance sensor, Arduino Uno TX, MCP2515 CAN module.</em>
 </p>
 
 <p align="center">
   <img src="images/receive_side.jpg" alt="Receive side with Arduino RX, MCP2515, and motor driver" width="80%" /><br/>
-  <em>Receive side: Arduino Uno RX with MCP2515 CAN module and L298N motor driver.</em>
+  <em>Receive side: Arduino Uno RX with MCP2515 CAN module, L298N motor driver and DC motor.</em>
 </p>
 
 <p align="center">
   <img src="images/encoder_motor.jpg" alt="12 V DC motor with encoder and pulley" width="80%" /><br/>
-  <em>12&nbsp;V DC encoder motor and pulley used for speed control and distance tracking.</em>
+  <em>12&nbsp;V DC encoder motor.</em>
 </p>
 
-<h2>Example software output</h2>
+<h2>Software output</h2>
 
 <p align="center">
-  <img src="images/serial_output_range14.png" alt="Serial output: TX distance and RX speed/PWM for Range = 14" width="80%" /><br/>
-  <em>Serial output: right = transmit node (ADC + distance), left = receive node (rpm, linear velocity, PWM) for Range&nbsp;=&nbsp;14.</em>
+  <img src="images/serial_output_range14.png" alt="Serial output: TX distance and RX speed/PWM for Range = 14" width="60%" /><br/>
+  <em>Serial output: right = transmit node (analog voltage + distance in cm), left = receive node (rpm + linear velocity).</em>
 </p>
